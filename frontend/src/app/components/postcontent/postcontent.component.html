@@ -1,0 +1,258 @@
+
+
+
+  <!-- Tabs -->
+  <div class="w-full">
+
+    <div class="flex space-x-4 overflow-x-auto py-2">
+        <div *ngFor="let feed of feedTitles; let i = index" class="flex-shrink-0">
+        <button class="tab-btn relative px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-600"
+          [attr.data-tab]="'tab-' + (i+1)">
+          {{ feed.name }}
+          <span class="active-indicator absolute bottom-0 left-0 w-full h-0.5 bg-green-600 hidden"></span>
+        </button>
+        </div>
+    </div>
+
+
+
+
+
+  </div>
+
+  <!-- Content -->
+  <div class="mt-4">
+    <div id="tab-1" class="tab-panel">
+      <div class="container mx-auto px-4 bg-[url('https://hao123-static.cdn.bcebos.com/fe-res/her/static/indexnew/component/feednews/bg.812f584.png')] ">
+
+          <ul class="mb-2 ml-4 space-y-2 list-disc">
+            <li *ngFor="let news of topNews">
+              <a [href]="news.url" target="_blank" class="text-blue-600 hover:underline">{{ news.name }}</a>
+            </li>
+          </ul>
+
+        <div class="grid grid-cols-1">
+          <!-- Blog Item -->
+          <div class="flex items-start space-x-4">
+            <!-- Image -->
+            <img
+              src="https://dgss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2413792412,251504908&fm=30&app=106&f=JPEG?w=312&h=208&s=5EAC84441E417145131A1DC10300E09E"
+              alt="Blog Thumbnail" class="w-32 object-cover rounded-sm" />
+            <!-- Content -->
+            <div class="flex-1">
+              <h3 class="text-lg font-semibold text-gray-800 hover:text-blue-600">
+                <a href="#">寒潮频繁出现冷冬就要来？小雪和寒潮是固定搭配？科普→</a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">
+                如果寒潮频繁来袭，这一冬会是冷冬吗？小雪节气是全年寒潮第二多的节气。作为冬天的“常客”，大家对寒潮也形成了一些误解，比如寒潮频繁来袭就意味着冷冬的到来。
+              </p>
+              <div class="mt-2 flex items-center text-sm text-gray-400">
+                <a href="#" class="mr-2">央视网 </a>
+                <span>•</span>
+                <span class="ml-2"> 5小时前更新</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-start space-x-4">
+            <img
+              src="https://dgss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3736371517,250974868&fm=30&app=106&f=JPEG?w=312&h=208&s=22D018C456CA0F5F9DC96C1703001040"
+              alt="Blog Thumbnail" class="w-32 object-cover rounded-sm" />
+            <div class="flex-1">
+              <h3 class="text-lg font-semibold text-gray-800 hover:text-blue-600">
+                <a href="#">如果马云和孙正义的相遇晚了半年</a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">
+                在11月13日的英伟达日本峰会上，英伟达CEO黄仁勋对台下观众爆料：“你们可能不知道，曾经有一段时间，孙正义是英伟达最大的股东。”孙正义对此也追悔莫及。
+              </p>
+              <div class="mt-2 flex items-center text-sm text-gray-400">
+                <a href="#" class="mr-2">虎嗅 </a>
+                <span>•</span>
+                <span class="ml-2"> 6天前更新</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-start space-x-4">
+            <!-- Image -->
+            <img
+              src="https://dgss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2413792412,251504908&fm=30&app=106&f=JPEG?w=312&h=208&s=5EAC84441E417145131A1DC10300E09E"
+              alt="Blog Thumbnail" class="w-32 object-cover rounded-sm" />
+            <!-- Content -->
+            <div class="flex-1">
+              <h3 class="text-lg font-semibold text-gray-800 hover:text-blue-600">
+                <a href="#">寒潮频繁出现冷冬就要来？小雪和寒潮是固定搭配？科普→</a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">
+                如果寒潮频繁来袭，这一冬会是冷冬吗？小雪节气是全年寒潮第二多的节气。作为冬天的“常客”，大家对寒潮也形成了一些误解，比如寒潮频繁来袭就意味着冷冬的到来。
+              </p>
+              <div class="mt-2 flex items-center text-sm text-gray-400">
+                <a href="#" class="mr-2">央视网 </a>
+                <span>•</span>
+                <span class="ml-2"> 5小时前更新</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-start space-x-4">
+
+            <div class="flex-1">
+              <h3 class="text-lg font-semibold text-gray-800 hover:text-blue-600">
+                <a href="#">寒潮频繁出现冷冬就要来？小雪和寒潮是固定搭配？科普→</a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">
+                如果寒潮频繁来袭，这一冬会是冷冬吗？小雪节气是全年寒潮第二多的节气。作为冬天的“常客”，大家对寒潮也形成了一些误解，比如寒潮频繁来袭就意味着冷冬的到来。
+              </p>
+              <div class="mt-2 flex items-center text-sm text-gray-400">
+                <a href="#" class="mr-2">央视网 </a>
+                <span>•</span>
+                <span class="ml-2"> 5小时前更新</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div id="tab-2" class="tab-panel hidden">
+      <p>Content for Tab 2</p>
+    </div>
+    <div id="tab-3" class="tab-panel hidden">
+      <p>Content for Tab 3</p>
+    </div>
+    <div id="tab-4" class="tab-panel hidden">
+      <p>Content for Tab 4</p>
+    </div>
+    <div id="tab-5" class="tab-panel hidden">
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+        <div class="bg-white shadow-sm overflow-hidden">
+          <img
+            src="http://pics3.baidu.com/feed/9a504fc2d56285358d58dfde78de89c8a6ef6351.jpeg?token=66a3536d3f7f3080bb11f735d144e910"
+            alt="Image" class="w-full h-30 object-cover">
+          <div class="p-4">
+            <h3 class="text-xs font-semibold text-gray-800 truncate">三力测试便民措施，助老老年人轻松应考</h3>
+            <div class="flex items-center">
+              <img class="h-4 w-4 rounded-full"
+                src="https://avatar.bdstatic.com/it/u=2626715436,2717869947&amp;fm=3012&amp;app=3012&amp;autime=1732259431&amp;size=b200,200"
+                loading="lazy">
+              <span class="text-xs text-gray-600">花姐活珠子</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-sm overflow-hidden">
+          <img
+            src="http://pics3.baidu.com/feed/9a504fc2d56285358d58dfde78de89c8a6ef6351.jpeg?token=66a3536d3f7f3080bb11f735d144e910"
+            alt="Image" class="w-full h-30 object-cover">
+          <div class="p-4">
+            <h3 class="text-xs font-semibold text-gray-800 truncate">三力测试便民措施，助老老年人轻松应考</h3>
+            <div class="flex items-center">
+              <img class="h-4 w-4 rounded-full"
+                src="https://avatar.bdstatic.com/it/u=2626715436,2717869947&amp;fm=3012&amp;app=3012&amp;autime=1732259431&amp;size=b200,200"
+                loading="lazy">
+              <span class="text-xs text-gray-600">花姐活珠子</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-sm overflow-hidden">
+          <img
+            src="http://pics3.baidu.com/feed/9a504fc2d56285358d58dfde78de89c8a6ef6351.jpeg?token=66a3536d3f7f3080bb11f735d144e910"
+            alt="Image" class="w-full h-30 object-cover">
+          <div class="p-4">
+            <h3 class="text-xs font-semibold text-gray-800 truncate">三力测试便民措施，助老老年人轻松应考</h3>
+            <div class="flex items-center">
+              <img class="h-4 w-4 rounded-full"
+                src="https://avatar.bdstatic.com/it/u=2626715436,2717869947&amp;fm=3012&amp;app=3012&amp;autime=1732259431&amp;size=b200,200"
+                loading="lazy">
+              <span class="text-xs text-gray-600">花姐活珠子</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-sm overflow-hidden">
+          <img
+            src="http://pics3.baidu.com/feed/9a504fc2d56285358d58dfde78de89c8a6ef6351.jpeg?token=66a3536d3f7f3080bb11f735d144e910"
+            alt="Image" class="w-full h-30 object-cover">
+          <div class="p-4">
+            <h3 class="text-xs font-semibold text-gray-800 truncate">三力测试便民措施，助老老年人轻松应考</h3>
+            <div class="flex items-center">
+              <img class="h-4 w-4 rounded-full"
+                src="https://avatar.bdstatic.com/it/u=2626715436,2717869947&amp;fm=3012&amp;app=3012&amp;autime=1732259431&amp;size=b200,200"
+                loading="lazy">
+              <span class="text-xs text-gray-600">花姐活珠子</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-sm overflow-hidden">
+          <img
+            src="http://pics3.baidu.com/feed/9a504fc2d56285358d58dfde78de89c8a6ef6351.jpeg?token=66a3536d3f7f3080bb11f735d144e910"
+            alt="Image" class="w-full h-30 object-cover">
+          <div class="p-4">
+            <h3 class="text-xs font-semibold text-gray-800 truncate">三力测试便民措施，助老老年人轻松应考</h3>
+            <div class="flex items-center">
+              <img class="h-4 w-4 rounded-full"
+                src="https://avatar.bdstatic.com/it/u=2626715436,2717869947&amp;fm=3012&amp;app=3012&amp;autime=1732259431&amp;size=b200,200"
+                loading="lazy">
+              <span class="text-xs text-gray-600">花姐活珠子</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-sm overflow-hidden">
+          <img
+            src="http://pics3.baidu.com/feed/9a504fc2d56285358d58dfde78de89c8a6ef6351.jpeg?token=66a3536d3f7f3080bb11f735d144e910"
+            alt="Image" class="w-full h-30 object-cover">
+          <div class="p-4">
+            <h3 class="text-xs font-semibold text-gray-800 truncate">三力测试便民措施，助老老年人轻松应考</h3>
+            <div class="flex items-center">
+              <img class="h-4 w-4 rounded-full"
+                src="https://avatar.bdstatic.com/it/u=2626715436,2717869947&amp;fm=3012&amp;app=3012&amp;autime=1732259431&amp;size=b200,200"
+                loading="lazy">
+              <span class="text-xs text-gray-600">花姐活珠子</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-sm overflow-hidden">
+          <img
+            src="http://pics3.baidu.com/feed/9a504fc2d56285358d58dfde78de89c8a6ef6351.jpeg?token=66a3536d3f7f3080bb11f735d144e910"
+            alt="Image" class="w-full h-30 object-cover">
+          <div class="p-4">
+            <h3 class="text-xs font-semibold text-gray-800 truncate">三力测试便民措施，助老老年人轻松应考</h3>
+            <div class="flex items-center">
+              <img class="h-4 w-4 rounded-full"
+                src="https://avatar.bdstatic.com/it/u=2626715436,2717869947&amp;fm=3012&amp;app=3012&amp;autime=1732259431&amp;size=b200,200"
+                loading="lazy">
+              <span class="text-xs text-gray-600">花姐活珠子</span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+    <div id="tab-6" class="tab-panel hidden">
+      <p>Content for Tab 6</p>
+    </div>
+    <div id="tab-7" class="tab-panel hidden">
+      <p>Content for Tab 7</p>
+    </div>
+    <div id="tab-8" class="tab-panel hidden">
+      <p>Content for Tab 8</p>
+    </div>
+    <div id="tab-9" class="tab-panel hidden">
+      <p>Content for Tab 9</p>
+    </div>
+    <div id="tab-10" class="tab-panel hidden">
+      <p>Content for Tab 10</p>
+    </div>
+    <div id="tab-11" class="tab-panel hidden">
+      <p>Content for Tab 11</p>
+    </div>
+
+  </div>

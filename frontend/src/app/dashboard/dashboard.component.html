@@ -1,0 +1,277 @@
+
+  <div class="container flex items-center justify-around mx-auto px-4  my-2 w-full border border-gray-200 p-2">
+
+    <div *ngIf="govSites && govSites.length; else noData" class="govSites">
+
+        <a *ngFor="let site of govSites">
+          <div >
+            <a class="govSites" style="margin-left: 26px; margin-right: 26px;" [href]="site.url" target="_blank">{{ site.name }}</a>
+          </div>
+        </a>
+
+    </div>
+
+    <ng-template #noData>
+      <p>No government sites available.</p>
+    </ng-template>
+  </div>
+
+  <div class="container flex justify-between items-center  mx-auto">
+    <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728721416180/ce719dcbb96c.png" />
+    <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728721417763/14b0def5b5af.png" />
+    <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728721419069/866df4c810ce.png" />
+    <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728721424351/b738e3cfac72.png" />
+    <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728721420102/28ae5e20c7f4.png" />
+    <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728721421215/f41126f34a2d.png" />
+    <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728721422673/b86c80793226.png" />
+  </div>
+
+  <div class="container mx-auto p-4 w-full border border-[#DEE3EB] mt-3">
+
+        <!-- stie Items -->
+        <div *ngIf="siteItems?.length; else noItems" class="grid grid-cols-9 gap-4 items-center mt-2">
+          <div *ngFor="let item of siteItems" class="site-item" class="flex items-center space-x-2">
+            <a class="text-sm font-medium text-gray-700 hover:text-blue-600" [href]="item.link" target="_blank" rel="noopener noreferrer">
+              <div class="flex flex items-center space-x-2">
+
+              <img  style="width: 20px;" [src]="item.icon" [alt]="item.name" class="site-icon" />
+              <span class="site-name turncate">{{ item.name }}</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <ng-template #noItems>
+          <p>No items available.</p>
+        </ng-template>
+        <div class="w-full border-t border-gray-300 my-4"></div>
+
+        <div *ngIf="commonSiteItems?.length; else noItems" class="grid grid-cols-9 gap-1 items-center mt-2">
+          <div *ngFor="let item of commonSiteItems" class="site-item" class="flex items-center space-x-2">
+            <a class="text-sm font-medium text-gray-700 hover:text-blue-600" [href]="item.link" target="_blank" rel="noopener noreferrer">
+              <div class="flex flex items-center space-x-2">
+
+                <img *ngIf="item.icon" style="width: 20px;" [src]="item.icon" [alt]="item.name" class="site-icon" />
+              <span class="site-name turncate">{{ item.name }}</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <ng-template #noItems>
+          <p>No common site items available.</p>
+        </ng-template>
+
+  <br>
+
+    <!-- <div class="flex w-full justify-center items-center border-b border-gray-300">
+      登录后将保留您的设置，便于您在其他地方查看
+
+      <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-4 rounded h-8">
+        登录
+      </button>
+    </div> -->
+
+
+
+    <div class="flex justify-center items-center mt-2">
+      <button id="showButton"  *ngIf="isLongContentHidden" id="showButton" (click)="toggleLongContent()"> 点击展开 <i class="hgi-stroke hgi-arrow-down-01"></i></button>
+    </div>
+  </div>
+<br>
+
+  <div id="contentDiv" style="background-color: rgb(255, 255, 255) ; border-color: antiquewhite;" class="container mx-auto px-4 bg-purple-200 mb-2 w-full border border-black py-3 hidden">
+    <table style="width: 100%;">
+      <tr *ngFor="let category of categories">
+        <td style="color: #0AA770;">{{ category.name }}</td>
+            <td *ngFor="let item of category.items">
+              <a   [href]="item.url" target="_blank">{{ item.name }}</a>
+          </td>
+        </table>
+
+
+
+    <div class="flex items-center justify-center">
+      <a href="#"  *ngIf="!isLongContentHidden" id="hideButton" (click)="toggleLongContent()"> 点击收起 <i class="hgi-stroke hgi-arrow-up-01"></i></a>
+    </div>
+  </div>
+
+  <div class="container mx-auto mx-4 mb-2 w-full py-3 grid grid-cols-12 gap-4">
+    <div class="col-span-3"> <!-- left nav-->
+
+
+
+     <app-hotlist/>
+
+
+
+
+      <div class="nav-2  border border-gray-300 shadow-md my-3">
+        <nav class="nav-1 border border-gray-300 shadow-md  w-full">
+          <div class="flex border-b border-gray-200 shadow-md border-green-500">
+            <button
+              class="tab-button-2 relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+              data-tab="tabtwo1">
+              电影
+              <span class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"></span>
+            </button>
+            <button
+              class="tab-button-2 relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+              data-tab="tabtwo2">
+              电视
+              <span class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"></span>
+            </button>
+            <button
+              class="tab-button-2 relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+              data-tab="tabtwo3">
+              小说
+              <span class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"></span>
+            </button>
+            <button
+              class="tab-button-2 relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+              data-tab="tabtwo4">
+              游戏
+              <span class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"></span>
+            </button>
+            <button
+              class="tab-button-2 relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+              data-tab="tabtwo5">
+              游戏
+              <span class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"></span>
+            </button>
+          </div>
+        </nav>
+        <div class="flex">
+          <div class="tab-content-2  bg-white  hidden" id="tabtwo1">
+         <app-sideslide/>
+
+            <div class="p-4 max-w-lg mx-auto bg-white shadow-md rounded-md">
+              <ol class="space-y-4 list-decimal">
+                <!-- Top List Item -->
+
+                <li *ngFor="let item of TopListItems" class="flex items-center justify-start border-b pb-2">
+
+                  <a [href]="item.url" title="{{ item.name }}" class="text-blue-500 hover:underline truncate">
+                    {{ item.name }}
+                  </a>
+                </li>
+                <li class="flex items-center justify-start border-b pb-2">
+                  <span class="font-bold text-gray-600">1.</span>
+                  <a href="https://haokan.baidu.com/v?vid=10770644499337174989&amp;fr=hao123-op"
+                    title="TF四代魏子宸被校园霸凌，头被按在座椅上，校园墙上全是语言霸凌" class="text-blue-500 hover:underline truncate">
+                    TF四代魏子宸被校园霸凌，头被按...
+                  </a>
+                </li>
+
+              </ol>
+            </div>
+
+          </div>
+          <div class="tab-content-2 p-4 bg-white border border-gray-200 hidden" id="tabtwo2">
+            <p>Content 2.</p>
+          </div>
+          <div class="tab-content-2 p-4 bg-white border border-gray-200 hidden" id="tabtwo3">
+            <p>Content 3.</p>
+          </div>
+          <div class="tab-content-2 p-4 bg-white border border-gray-200 hidden" id="tabtwo4">
+            <p>Content 4.</p>
+          </div>
+          <div class="tab-content-2 p-4 bg-white border border-gray-200 hidden" id="tabtwo5">
+            <p>Content 1.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="nav-3  border border-gray-300 shadow-md my-3">
+        <nav class="nav-1 border border-gray-300 shadow-md  w-full">
+          <div class="flex border-b border-gray-200 shadow-md">
+            <button
+              class="tab-button-3 relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+              data-tab="tab3a">
+              电影
+              <span class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"></span>
+            </button>
+            <button
+              class="tab-button-3 relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+              data-tab="tab3b">
+              电视
+              <span class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"></span>
+            </button>
+          </div>
+        </nav>
+
+        <div class="tab-content-3 bg-white border border-gray-200 hidden" id="tab3a">
+         <app-sideslide/>
+        </div>
+        <div class="tab-content-3 bg-white border border-gray-200 hidden" id="tab3b">
+          <app-sideslide/>
+
+        </div>
+
+      </div>
+
+      <div class="nav-4  border border-gray-300 shadow-md my-3">
+        <div class="flex justify-between items-center w-full p-2 shadow-md">
+          <h6>搜索热点</h6>
+          <a href="#" class="ml-2"><i class="hgi-stroke hgi-reload"></i>换一换</a>
+        </div>
+        <div class="flex w-full p-2 ">
+          <ul class=" w-full list-decimal pl-2">
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">1. 外交部要求中日双方面免签”</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">2. 私家车撞上军用装甲车</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">3. “链”味十足 向“新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">4. “链”味十足 向“新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">5. 链”味十足 向“新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">6. “链”味十足新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">7. “链”味十足 向“新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">8. “链”味十足 向“新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">9. “链”味十足 向“新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+            <li class="flex justify-between">
+              <a href="#" class="text-small font-sm hover:underline flex-grow">10. “链”味十足 向“新”前行</a>
+              <span class="text-gray-500">792万</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="nav-5 flex border border-gray-300 shadow-md my-3">
+        <h6>实时脉搏</h6>
+
+      </div>
+
+    </div> <!-- end left nav-->
+    <div class="col-span-9 border border-gray">
+    <app-postcontent />
+    </div>
+  </div>
+

@@ -1,0 +1,298 @@
+
+<div class="relative">
+  <img src="https://hao123-static.cdn.bcebos.com/cms/2024-10/1728439862186/6c150c9d16f2.jpg" alt="banner"
+    class="w-full" />
+</div>
+<div class="container mx-auto px-4">
+  <div class="flex items-center justify-start mt-4 mb-2 space-x-3">
+    <div class="flex justify-start items-top">
+      <div>
+        <img
+          src="https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-09-27/297f5edb1e984613083a2d3cc0c5bb36.png"
+          alt="logo" class="h-12" />
+      </div>
+      <div class="flex border border-gray-300 rounded-lg h-7">设为首页</div>
+    </div>
+    <div class="hover:bg-gray-200 hover:rounded">
+      <a href="#" class="px-4"> 北京 切换 </a> <br />
+      <a href="#" class="px-4"> 七日天气 </a>
+    </div>
+    <div class="hover:bg-gray-200 hover:rounded">
+      <a href="#" class="px-4"> 多云 -5～4℃ 优 </a> <br />
+      <a href="#" class="px-4"> 明多云 -5～4℃ </a>
+    </div>
+    <div class="hover:bg-gray-200 hover:rounded">
+      <a href="#" class="px-4"> 11月26日 十月廿六 </a> <br />
+      <a href="#" class="px-4"> 星期二 星座运势 </a>
+    </div>
+    <div class="flex hover:bg-gray-200 hover:rounded">
+      <div class="flex flex-col">
+        <a href="#" class="px-4 line-item">查IP </a>
+        <a href="#" class="px-4 line-item">邮箱 </a>
+      </div>
+      <div class="flex flex-col">
+        <a href="#" class="px-4 line-item">地图 </a>
+        <a href="#" class="px-4 line-item">汇率 </a>
+      </div>
+      <div class="flex flex-col">
+        <a href="#" class="px-4 line-item">火车票 </a>
+        <a href="#" class="px-4 line-item">查快递 </a>
+      </div>
+      <div class="flex flex-col">
+        <a href="#" class="px-4 line-item">计算器 </a>
+        <a href="#" class="px-4 line-item">查股票 </a>
+      </div>
+      <div class="flex flex-col">
+        <a href="#" class="px-4 line-item">违章查询 </a>
+        <a href="#" class="px-4 line-item">个税查询 </a>
+      </div>
+      <div class="flex flex-col">
+        <a href="#" class="px-4 line-item">网盘 </a>
+        <a href="#" class="px-4 line-item">辟谣 </a>
+      </div>
+
+    </div>
+    <div class="hover:bg-gray-200 hover:rounded flex items-center">
+      <a href="#"><i class="hgi-stroke hgi-user-sharing"></i> 登录
+      </a>
+    </div>
+  </div>
+</div>
+
+<header class="sticky top-0 bg-white shadow-md z-9">
+  <div class="max-w-7xl mx-auto p-4">
+    <div class="flex space-x-4 items-top justify-center">
+      <div class="logo">
+        <img src="https://dss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/res/r/image/2021-3-4/hao123%20logo.png" alt="logo"
+          class="h-12" />
+      </div>
+
+      <div class="flex flex-col">
+        <div class="searchBox flex flex-shrink-0">
+          <div class="flex relative">
+            <label for="search-dropdown" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search Here</label>
+
+            <!-- Dropdown Button -->
+            <button
+              id="dropdown-button"
+              class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
+              type="button"
+              (click)="toggleDropdown()"
+            >
+              收起
+              <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+              </svg>
+            </button>
+
+            <!-- Search Input -->
+            <div class="relative w-full">
+              <input
+              type="search"
+              id="search-dropdown"
+              class="block p-2.5 w-[320px] lg:w-[420px] z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg border-s-gray-50 border-s-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-s-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+              placeholder="wow that data must be sliding"
+              required
+              />
+              <button type="button" class="absolute inset-y-0 end-0 flex items-center pe-3">
+              <svg class="w-4 h-4 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7v3a5.006 5.006 0 0 1-5 5H6a5.006 5.006 0 0 1-5-5V7m7 9v3m-3 0h6M7 1h2a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3Z"/>
+              </svg>
+            </button>
+              <button
+              type="button"
+              (click)="onSearch()"
+              class="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-blue-700 rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+              百度一下
+              </button>
+              <div class="absolute inset-y-0 end-20 flex items-center">
+              <button class="inline-flex items-center justify-center w-6 h-6 text-xs font-semibold text-white bg-gray-300 rounded-full" (click)="toggleSearchDropdown()">3</button>
+              </div>
+            </div>
+
+            <div
+                id="dropdown"
+                class="absolute top-full left-0 mt-1 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-20 dark:bg-gray-700"
+                [ngClass]="{'hidden': !dropdownVisible, 'block': dropdownVisible}"
+              >
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
+                <li>
+                  <a
+                  link="https://www.baidu.com/s&wd=网页"
+                  target="_blank"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  网页
+                  </a>
+                </li>
+                <li>
+                  <a
+                  link="https://tieba.baidu.com/f?kw=贴吧"
+                  target="_blank"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  贴吧
+                  </a>
+                </li>
+                <li>
+                  <a
+                  link="https://zhidao.baidu.com/search?word=知道"
+                  target="_blank"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  知道
+                  </a>
+                </li>
+                <li>
+                  <a
+                  link="https://image.baidu.com/search/index?tn=baiduimage&word=图片"
+                  target="_blank"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  图片
+                  </a>
+                </li>
+                </ul>
+              </div>
+              <div
+                id="dropdown"
+                class="absolute top-full left-0 mt-1 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-20 dark:bg-gray-700"
+                [ngClass]="{'hidden': !dropdownVisible, 'block': dropdownVisible}"
+              >
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
+                <li>
+                  <button
+                  type="button"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  网页
+                  </button>
+                </li>
+                <li>
+                  <button
+                  type="button"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  贴吧
+                  </button>
+                </li>
+                <li>
+                  <button
+                  type="button"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  知道
+                  </button>
+                </li>
+                <li>
+                  <button
+                  type="button"
+                  class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >
+                  图片
+                  </button>
+                </li>
+                </ul>
+              </div>
+
+            <!-- Dropdown Content -->
+            <div
+              id="searchDropDown"
+              class="absolute top-full left-0 mt-1 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-full dark:bg-gray-700"
+              [ngClass]="{'hidden': !searchDropdownVisible, 'block': searchDropdownVisible}"
+            >
+            <ul class="list-none space-y-2">
+              <!-- Item 1 -->
+              <li class="flex items-center px-3 mx-2 hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <span class="flex items-center justify-center w-8 h-8 text-white bg-red-500 rounded-full mr-4">
+                  1
+                </span>
+                <span class="flex-1 text-gray-900 dark:text-gray-200">
+                  24岁女生没食欲 一查全胃长满肿瘤
+                </span>
+                <span class="text-gray-500 text-sm dark:text-gray-400">799万</span>
+              </li>
+
+              <!-- Item 2 -->
+              <li class="flex items-center px-3 mx-2 hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <span class="flex items-center justify-center w-8 h-8 text-white bg-orange-500 rounded-full mr-4">
+                  2
+                </span>
+                <span class="flex-1 text-gray-900 dark:text-gray-200">
+                  男子7200元买酒 扫码跳转色情网站
+                </span>
+                <span class="text-gray-500 text-sm dark:text-gray-400">782万</span>
+              </li>
+
+              <!-- Item 3 -->
+              <li class="flex items-center px-3 mx-2 hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <span class="flex items-center justify-center w-8 h-8 text-white bg-green-500 rounded-full mr-4">
+                  3
+                </span>
+                <span class="flex-1 text-gray-900 dark:text-gray-200">
+                  一批民生新规12月起施行
+                </span>
+                <span class="text-gray-500 text-sm dark:text-gray-400">771万</span>
+              </li>
+
+              <!-- Additional Items -->
+              <a class="flex items-center px-3 mx-2 hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <span class="flex items-center justify-center w-8 h-8 text-white bg-gray-600 rounded-full mr-4">
+                  4
+                </span>
+                <span class="flex-1 text-gray-900 dark:text-gray-200">
+                  艾滋夫妇确诊感染后的第20年
+                </span>
+                <span class="text-gray-500 text-sm dark:text-gray-400">768万</span>
+              </a>
+
+              <li class="flex items-center px-3 mx-2 hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <span class="flex items-center justify-center w-8 h-8 text-white bg-gray-600 rounded-full mr-4">
+                  5
+                </span>
+                <span class="flex-1 text-gray-900 dark:text-gray-200">
+                  长征十二号火箭成功首飞
+                </span>
+                <span class="text-gray-500 text-sm dark:text-gray-400">751万</span>
+              </li>
+
+              <!-- Add more items as needed -->
+            </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="suggestion w-[500px] flex">
+
+          <div class="mt-2 flex  flex-wrap space-x-2">
+            <a href="#" target="_blank" class="block">王楚钦谈与张本智和争冠 </a>
+            <a href="#" target="_blank" class="block">前体操冠军做擦边女主播遭怒斥 </a>
+            <a href="#" target="_blank" class="block">王楚钦谈与张本智和争冠 </a>
+
+            <a href="#" target="_blank" class="block">王楚钦谈与张本智和争冠 </a>
+            <a href="#" target="_blank" class="block">前体操冠军做擦边女主播遭怒斥 </a>
+
+          </div>
+          <div class="mt-2">
+            <i class="hgi-stroke hgi-arrow-down-01"></i>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+      <div class="">
+        <a href="#">蒋凡归来 接管阿里5000亿命脉 </a>
+      </div>
+      <div class="">
+        <a href="#"> <i class="hgi-stroke hgi-refresh"></i> </a>
+      </div>
+    </div>
+
+  </div>
+</header>

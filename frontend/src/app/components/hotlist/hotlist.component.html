@@ -1,0 +1,178 @@
+<nav class="nav-1 border border-gray-100 shadow-md">
+  <div class="flex border-b border-gray-200 shadow-md border-green-50">
+    <button
+      class="tab-button relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+      data-tab="tab1"
+    >
+      电影
+      <span
+        class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"
+      ></span>
+    </button>
+    <button
+      class="tab-button relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+      data-tab="tab2"
+    >
+      电视
+      <span
+        class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"
+      ></span>
+    </button>
+    <button
+      class="tab-button relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+      data-tab="tab3"
+    >
+      小说
+      <span
+        class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"
+      ></span>
+    </button>
+    <button
+      class="tab-button relative px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 focus:outline-none"
+      data-tab="tab4"
+    >
+      游戏
+      <span
+        class="absolute -top-1 left-0 w-full h-0.5 bg-green-500 hidden"
+      ></span>
+    </button>
+  </div>
+</nav>
+<div class="tab-content p-2 bg-white border border-gray-200" id="tab1">
+  <div class="accordion">
+    <!-- Accordion Item 1 -->
+    <div *ngFor="let item of hotLists; let i = index">
+      <div
+        class="accordion-item"
+        *ngIf="item.hotlistTab === '电影'"
+        (mouseenter)="expandedIndex = i"
+        (mouseleave)="expandedIndex = 0"
+      >
+        <div class="accordion-header hover:bg-gray-200 cursor-pointer p-2">
+          <h6 class="text-md turncate">{{ item.name }} taht name</h6>
+        </div>
+        <div
+          class="accordion-content overflow-hidden transition-all duration-300 ease-in-out"
+          [class.max-h-0]="expandedIndex !== i"
+          [class.opacity-0]="expandedIndex !== i"
+          [class.max-h-screen]="expandedIndex === i"
+          [class.opacity-100]="expandedIndex === i"
+        >
+          <div class="flex w-full items-center space-x-2">
+            <div class="w-2/6">
+              <img [src]="item.imageLink" class="w-full" />
+            </div>
+            <div class="w-4/6">
+              <a [href]="item.url">{{ item.name }}</a>
+              <p *ngFor="let info of item.infoTexts">{{ info }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content p-2 bg-white border border-gray-200 hidden" id="tab2">
+  <div class="accordion">
+    <!-- Accordion Item 1 -->
+    <div *ngFor="let item of hotLists; let i = index">
+      <div
+        class="accordion-item"
+        *ngIf="item.hotlistTab === '电视'"
+        (mouseenter)="expandedIndex = i"
+        (mouseleave)="expandedIndex = 0"
+      >
+        <div class="accordion-header hover:bg-gray-200 cursor-pointer p-2">
+          <h6 class="text-md turncate">{{ item.name }} taht name</h6>
+        </div>
+        <div
+          class="accordion-content overflow-hidden transition-all duration-300 ease-in-out"
+          [class.max-h-0]="expandedIndex !== i"
+          [class.opacity-0]="expandedIndex !== i"
+          [class.max-h-screen]="expandedIndex === i"
+          [class.opacity-100]="expandedIndex === i"
+        >
+          <div class="flex w-full items-center space-x-2">
+            <div class="w-2/6">
+              <img [src]="item.imageLink" class="w-full" />
+            </div>
+            <div class="w-4/6">
+              <a [href]="item.url">{{ item.name }}</a>
+              <p *ngFor="let info of item.infoTexts">{{ info }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tab-content p-2 bg-white border border-gray-200 hidden" id="tab3">
+  <div class="accordion">
+    <!-- Accordion Item 1 -->
+    <div *ngFor="let item of hotLists; let i = index">
+      <div
+        class="accordion-item"
+        *ngIf="item.hotlistTab === '小说'"
+        (mouseenter)="expandedIndex = i"
+        (mouseleave)="expandedIndex = 0"
+      >
+        <div class="accordion-header hover:bg-gray-200 cursor-pointer p-2">
+          <h6 class="text-md turncate">{{ item.name }} taht name</h6>
+        </div>
+        <div
+          class="accordion-content overflow-hidden transition-all duration-300 ease-in-out"
+          [class.max-h-0]="expandedIndex !== i"
+          [class.opacity-0]="expandedIndex !== i"
+          [class.max-h-screen]="expandedIndex === i"
+          [class.opacity-100]="expandedIndex === i"
+        >
+          <div class="flex w-full items-center space-x-2">
+            <div class="w-2/6">
+              <img [src]="item.imageLink" class="w-full" />
+            </div>
+            <div class="w-4/6">
+              <a [href]="item.url">{{ item.name }}</a>
+              <p *ngFor="let info of item.infoTexts">{{ info }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content p-2 bg-white border border-gray-200 hidden" id="tab4">
+  <div class="accordion">
+    <!-- Accordion Item 1 -->
+    <div *ngFor="let item of hotLists; let i = index">
+      <div
+        class="accordion-item"
+        *ngIf="item.hotlistTab === '游戏'"
+        (mouseenter)="expandedIndex = i"
+        (mouseleave)="expandedIndex = 0"
+      >
+        <div class="accordion-header hover:bg-gray-200 cursor-pointer p-2">
+          <h6 class="text-md turncate">{{ item.name }} taht name</h6>
+        </div>
+        <div
+          class="accordion-content overflow-hidden transition-all duration-300 ease-in-out"
+          [class.max-h-0]="expandedIndex !== i"
+          [class.opacity-0]="expandedIndex !== i"
+          [class.max-h-screen]="expandedIndex === i"
+          [class.opacity-100]="expandedIndex === i"
+        >
+          <div class="flex w-full items-center space-x-2">
+            <div class="w-2/6">
+              <img [src]="item.imageLink" class="w-full" />
+            </div>
+            <div class="w-4/6">
+              <a [href]="item.url">{{ item.name }}</a>
+              <p *ngFor="let info of item.infoTexts">{{ info }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

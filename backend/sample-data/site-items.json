@@ -1,0 +1,227 @@
+[
+  {
+    "name": "百度",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2021-3-5/baidulogo.png",
+    "link": "http://www.baidu.com/?tn=sitehao123_15"
+  },
+  {
+    "name": "新浪",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/qiusuo_icon/10597f220b047cee3e8ea50e91886d71.ico",
+    "link": "http://www.sina.com.cn/"
+  },
+  {
+    "name": "搜狐",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/data/8d6d2c708fbf92d23e3852340d72f9ff",
+    "link": "http://www.sohu.com/"
+  },
+  {
+    "name": "腾讯",
+    "icon": "https://dgss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/qiusuo_icon/5838ed1d6a3eef9f91341d9a8af16db8.ico",
+    "link": "http://www.qq.com/"
+  },
+  {
+    "name": "网易",
+    "icon": "https://dgss0.bdstatic.com/5bVSsj_p_tVS5dKfpU_Y_D3/qiusuo_icon/0243171b97e12fd795285d6603b199bb.ico",
+    "link": "http://www.163.com/"
+  },
+  {
+    "name": "百度地图",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/bddt2018110949.png",
+    "link": "http://map.baidu.com/"
+  },
+  {
+    "name": "游戏",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/game0331.png",
+    "link": "https://game.hao123.com/?idfrom=4086"
+  },
+  {
+    "name": "hao123头条",
+    "icon": "https://dgss0.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/1.1f32806366c6520864b669e487ec2ab8.png",
+    "link": "http://tuijian.hao123.com/?type=rec"
+  },
+  {
+    "name": "hao123影视",
+    "icon": "https://dgss0.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/1.1f32806366c6520864b669e487ec2ab8.png",
+    "link": "http://v.hao123.baidu.com/"
+  },
+  {
+    "name": "爱淘宝",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-07-10/16c593b3396fd2ed58ce6851ff76b2d0.png",
+    "link": "https://s.click.taobao.com/1ilLlvt?pid=mm_43125636_4246598_114820950246"
+  },
+  {
+    "name": "京东",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2023-4/1682575299870/f37e8920e1cc.png",
+    "link": "https://union-click.jd.com/jdc?d=iEZf6v"
+  },
+  {
+    "name": "阿里1688",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2024-10/1728458549089/1b963c69f636.png",
+    "link": "https://p4psearch.1688.com/hamlet.html?scene=6&cosite=hao123daohang&location=mingzhan"
+  },
+  {
+    "name": "天猫国际",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2020-01-01/1bb44a4de355a70c26fb840ef31d3bfc.png",
+    "link": "https://s.click.taobao.com/nRjsjOu"
+  },
+  {
+    "name": "携程旅行网",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2023-1/1673234497490/d227b63ee43d.png",
+    "link": "https://www.ctrip.com/?allianceid=1630&sid=40636345"
+  },
+  {
+    "name": "好看视频",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2019-07-01/3a117368c5bcfaf958ee74b0aec56287.png",
+    "link": "https://haokan.baidu.com/"
+  },
+  {
+    "name": "淘宝网",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2020-04-09/9a95d3783ba0e6dea8bd386e2d0ad67f.png",
+    "link": "https://www.taobao.com/"
+  },
+  {
+    "name": "哔哩哔哩",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/data/b51544df631f5dd536ade159b09c1dcf",
+    "link": "https://www.bilibili.com/"
+  },
+  {
+    "name": "爱奇艺",
+    "icon": "https://dgss0.bdstatic.com/5bVSsj_p_tVS5dKfpU_Y_D3/data/b34fe8ac6be373fd96f301282e83c705",
+    "link": "http://www.iqiyi.com/"
+  },
+  {
+    "name": "聚划算",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2023-10/1698661759738/ecf6a137723d.png",
+    "link": "https://mos.m.taobao.com/union/jhsjx2020?pid=mm_43125636_4246598_109944300468"
+  },
+  {
+    "name": "天猫",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2024-4/1714127250900/8f3222ebd1eb.png",
+    "link": "https://s.click.taobao.com/D5tHITu?pid=mm_43125636_4246598_115687200148"
+  },
+  {
+    "name": "东方财富",
+    "icon": "https://dgss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2016-12-12/30d4143e18a36bed146bb7e92e5a2464.png",
+    "link": "http://www.eastmoney.com/"
+  },
+  {
+    "name": "知乎",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2019-08-16/3c8835ab2cb0db921a8879952df3cac9.png",
+    "link": "https://www.zhihu.com/"
+  },
+  {
+    "name": "文心一言",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2023-10/1697706079755/06893d2d655f.PNG",
+    "link": "https://yiyan.baidu.com/?from=25"
+  },
+  {
+    "name": "12306",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/data/15561edb1bae1b2c6a54fd6b4df5d840",
+    "link": "https://www.12306.cn/"
+  },
+  {
+    "name": "凤凰网",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/data/3321005414876972a6ccd92043996804",
+    "link": "https://www.ifeng.com/"
+  },
+  {
+    "name": "学信网",
+    "icon": "https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2021-4-1/favicon.png",
+    "link": "https://www.chsi.com.cn/"
+  },
+  {
+    "name": "豆瓣网",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2023-5/1684119884513/933a7d358a7b.png",
+    "link": "https://www.douban.com/"
+  },
+  {
+    "name": "dummy1",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://www.hupu.com/"
+  },
+  {
+    "name": "dummy2",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://music.163.com/"
+  },
+  {
+    "name": "dummy3",
+    "icon": "https://dgss3.bdstatic.com/5bVZsj_p_tVS5dKfpU_Y_D3/data/2bc39e5fa6cb2ba181a8e8d5a4b2be6d",
+    "link": "https://baiduzm.37.com/?uid=3339810"
+  },
+  {
+    "name": "dummy4",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://www.ximalaya.com/"
+  },
+  {
+    "name": "dummy5",
+    "icon": "https://dgss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/205b44ba4c35430f4db15152ab636444",
+    "link": "https://www.anjuke.com/?pi=navi-hao123-mz"
+  },
+  {
+    "name": "dummy6",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2023-3/1677668002236/abfd837bd5c4.png",
+    "link": "https://aiqicha.baidu.com/?fr=hao123"
+  },
+  {
+    "name": "dummy7",
+    "icon": "https://dgss3.bdstatic.com/5bVZsj_p_tVS5dKfpU_Y_D3/data/9ece17ba09c569b88bbb7ea91516f2d7",
+    "link": "http://xueshu.baidu.com/"
+  },
+  {
+    "name": "dummy8",
+    "icon": "https://hao123-static.cdn.bcebos.com/cms/2024-6/1717648619906/2071d182127a.png",
+    "link": "https://cp.baidu.com/?sa=hao123index"
+  },
+  {
+    "name": "dummy9",
+    "icon": "https://dgss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/f30903241fe23b204cfec2db8bf84779",
+    "link": "https://wenku.baidu.com/"
+  },
+  {
+    "name": "dummy10",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "http://www.cpta.com.cn/"
+  },
+  {
+    "name": "dummy11",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://mail.qq.com/"
+  },
+  {
+    "name": "dummy12",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "http://www.icbc.com.cn/icbc/"
+  },
+  {
+    "name": "dummy13",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://basic.smartedu.cn/"
+  },
+  {
+    "name": "dummy14",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "http://fanyi.baidu.com/"
+  },
+  {
+    "name": "dummy15",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://www.xuexi.cn/"
+  },
+  {
+    "name": "dummy16",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://www.icve.com.cn/"
+  },
+  {
+    "name": "dummy17",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://www.creditchina.gov.cn/"
+  },
+  {
+    "name": "dummy18",
+    "icon": "https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/6000.png",
+    "link": "https://yz.chsi.com.cn/"
+  }
+]

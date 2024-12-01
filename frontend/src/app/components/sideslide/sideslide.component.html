@@ -1,0 +1,62 @@
+<div class="relative w-full max-w-4xl mx-auto overflow-hidden group">
+  <!-- Slider Container -->
+  <div
+    class="flex transition-transform duration-500"
+    id="slider"
+    [style.transform]="'translateX(' + (-currentSlide * 100) + '%)'"
+  >
+    <!-- Slide 1 -->
+    <div class="flex-shrink-0 w-full relative">
+      <img
+        src="https://gips2.baidu.com/it/u=3529087410,1490718383&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f556_220"
+        alt="Slide 1"
+        class="w-full object-cover"
+      />
+      <div
+      class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white px-4 py-2 text-center truncate"
+    >
+      Description for Slide 1: This is a longer text to demonstrate truncation.
+    </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="flex-shrink-0 w-full relative">
+      <img
+        src="https://gips3.baidu.com/it/u=3857400383,2869701411&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f556_220"
+        alt="Slide 2"
+        class="w-full object-cover"
+      />
+      <div
+      class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white px-4 py-2 text-center truncate"
+    >
+      Description for Slide 1: This is a longer text to demonstrate truncation.
+    </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="flex-shrink-0 w-full relative">
+      <img
+        src="https://gips0.baidu.com/it/u=2502766723,2896303165&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f556_220"
+        alt="Slide 3"
+        class="w-full object-cover"
+      />
+      <div
+class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white px-4 py-2 text-center truncate"
+>
+Description for Slide 1: This is a longer text to demonstrate truncation.
+</div>
+    </div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button
+    class="absolute top-1/2 left-4 -translate-y-1/2 bg-gray-800 text-white py-1 px-3 hidden group-hover:block"
+    (click)="prevSlide()"
+  >
+    &#10094;
+  </button>
+  <button
+    class="absolute top-1/2 right-4 -translate-y-1/2 bg-gray-800 text-white py-1 px-3 hidden group-hover:block"
+    (click)="nextSlide()"
+  >
+    &#10095;
+  </button>
+</div>

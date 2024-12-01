@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://top.baidu.com/board?tab=movie&sa=fyb_movie_hao123",
+    "name": "电影"
+  },
+  {
+    "url": "https://www.hao123.com/api/gettop/?m0=1&p0=0&page=indexnew",
+    "name": "电视"
+  },
+  {
+    "url": "https://www.hao123.com/api/gettop/?m0=2&p0=0&page=indexnew",
+    "name": "小说"
+  },
+  {
+    "url": "https://www.hao123.com/api/gettop/?m0=3&p0=0&page=indexnew",
+    "name": "游戏"
+  }
+]

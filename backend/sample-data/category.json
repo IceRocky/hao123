@@ -1,0 +1,1127 @@
+[
+  {
+    "name": "视频",
+    "url": "http://v.hao123.baidu.com/",
+    "items": [
+      {
+        "name": "好看视频",
+        "url": "https://haokan.baidu.com/",
+        "category": "视频"
+      },
+      {
+        "name": "爱奇艺高清",
+        "url": "http://www.iqiyi.com/",
+        "category": "视频"
+      },
+      {
+        "name": "腾讯视频",
+        "url": "http://v.qq.com/",
+        "category": "视频"
+      },
+      {
+        "name": "百度直播",
+        "url": "https://live.baidu.com/?source=hao123",
+        "category": "视频"
+      },
+      {
+        "name": "优酷网",
+        "url": "http://www.youku.com/",
+        "category": "视频"
+      },
+      {
+        "name": "芒果TV",
+        "url": "http://www.mgtv.com/",
+        "category": "视频"
+      },
+      {
+        "name": "搜狐视频",
+        "url": "http://tv.sohu.com/",
+        "category": "视频"
+      },
+      {
+        "name": "咪咕视频",
+        "url": "https://www.miguvideo.com/mgs/website/prd/sportsHomePage.html?token=&from=migu",
+        "category": "视频"
+      },
+      {
+        "name": "百搜视频",
+        "url": "https://v.xiaodutv.com/",
+        "category": "视频"
+      },
+      {
+        "name": "央视网",
+        "url": "https://tv.cctv.com/",
+        "category": "视频"
+      }
+    ]
+  },
+  {
+    "name": "综合",
+    "url": "http://www.hao123.com/sitemap",
+    "items": [
+      {
+        "name": "高顿教育",
+        "url": "https://www.gaodun.com/",
+        "category": "综合"
+      },
+      {
+        "name": "会计网",
+        "url": "https://www.kuaiji.com/",
+        "category": "综合"
+      },
+      {
+        "name": "百度百科",
+        "url": "https://baike.baidu.com/",
+        "category": "综合"
+      },
+      {
+        "name": "学科网",
+        "url": "https://www.zxxk.com/",
+        "category": "综合"
+      },
+      {
+        "name": "豆丁网",
+        "url": "https://www.docin.com/",
+        "category": "综合"
+      },
+      {
+        "name": "征信中心",
+        "url": "https://ipcrs.pbccrc.org.cn/",
+        "category": "综合"
+      },
+      {
+        "name": "网易公开课",
+        "url": "https://open.163.com/",
+        "category": "综合"
+      },
+      {
+        "name": "千图网",
+        "url": "https://www.58pic.com/",
+        "category": "综合"
+      },
+      {
+        "name": "教育考试",
+        "url": "http://pindao.hao123.com/jiaoyu",
+        "category": "综合"
+      },
+      {
+        "name": "百度营销",
+        "url": "http://e.baidu.com/ebaidu/home?refer=1200",
+        "category": "综合"
+      }
+    ]
+  },
+  {
+    "name": "游戏",
+    "url": "https://game.hao123.com/",
+    "items": [
+      {
+        "name": "百度游戏",
+        "url": "http://wan.baidu.com/home?idfrom=4084",
+        "category": "游戏"
+      },
+      {
+        "name": "",
+        "url": "https://www.hao123.com/?from=offline_host#",
+        "category": "游戏"
+      },
+      {
+        "name": "37网游",
+        "url": "https://baiduzm.37.com/?uid=3339811",
+        "category": "游戏"
+      },
+      {
+        "name": "9377页游",
+        "url": "http://wvw.9377j.com/tg/baidu_kuzhan03/?uid=ccqqz",
+        "category": "游戏"
+      },
+      {
+        "name": "4366页游",
+        "url": "https://4366cq.381pk.com/123966/",
+        "category": "游戏"
+      },
+      {
+        "name": "7K7K小游戏",
+        "url": "http://www.7k7k.com/?7kfrom=hao123",
+        "category": "游戏"
+      },
+      {
+        "name": "游侠网",
+        "url": "https://www.ali213.net/",
+        "category": "游戏"
+      },
+      {
+        "name": "17173",
+        "url": "https://www.17173.com/",
+        "category": "游戏"
+      },
+      {
+        "name": "游民星空",
+        "url": "https://www.gamersky.com/",
+        "category": "游戏"
+      },
+      {
+        "name": "4399游戏",
+        "url": "https://www.4399.com/",
+        "category": "游戏"
+      },
+      {
+        "name": "hao123游戏",
+        "url": "https://game.hao123.com/",
+        "category": "游戏"
+      }
+    ]
+  },
+  {
+    "name": "页游",
+    "url": "https://wyyx.hao123.com/",
+    "items": [
+      {
+        "name": "2025传奇",
+        "url": "http://tp.9377s.com/1159531/?sid=new",
+        "category": "页游"
+      },
+      {
+        "name": "1.76传奇",
+        "url": "https://4366cq.8faa7.com/131602/",
+        "category": "页游"
+      },
+      {
+        "name": "超变传奇",
+        "url": "https://tp.9377s.com/1172275/?sid=new",
+        "category": "页游"
+      },
+      {
+        "name": "高爆打金服",
+        "url": "https://90w.danweigame.com/9p64my57/",
+        "category": "页游"
+      },
+      {
+        "name": "上古战歌",
+        "url": "https://wan.baidu.com/cover?gameId=88314911&idfrom=4084",
+        "category": "页游"
+      },
+      {
+        "name": "星神纪元",
+        "url": "https://wan.baidu.com/cover?gameId=61497956&idfrom=4084",
+        "category": "页游"
+      },
+      {
+        "name": "巨龙猎手",
+        "url": "https://wan.baidu.com/cover?gameId=58573089&idfrom=4084",
+        "category": "页游"
+      },
+      {
+        "name": "战online",
+        "url": "https://wan.baidu.com/cover?gameId=38183418&idfrom=4084",
+        "category": "页游"
+      },
+      {
+        "name": "传奇盛世2",
+        "url": "https://wan.baidu.com/cover?gameId=33342023&idfrom=4084",
+        "category": "页游"
+      },
+      {
+        "name": "原始传奇",
+        "url": "https://wan.baidu.com/cover?gameId=24063258&idfrom=4084",
+        "category": "页游"
+      }
+    ]
+  },
+  {
+    "name": "购物",
+    "url": "https://s.click.taobao.com/1ilLlvt?pid=mm_43125636_4246598_115693400140",
+    "items": [
+      {
+        "name": "爱淘宝",
+        "url": "https://s.click.taobao.com/1ilLlvt?pid=mm_43125636_4246598_114818700427",
+        "category": "购物"
+      },
+      {
+        "name": "当当网",
+        "url": "http://www.dangdang.com/",
+        "category": "购物"
+      },
+      {
+        "name": "淘宝特卖",
+        "url": "https://mos.m.taobao.com/union/taobaoTMPC?pid=mm_43125636_4246598_115463400142",
+        "category": "购物"
+      },
+      {
+        "name": "天猫",
+        "url": "https://s.click.taobao.com/D5tHITu?pid=mm_43125636_4246598_115693050159",
+        "category": "购物"
+      },
+      {
+        "name": "天猫国际",
+        "url": "https://s.click.taobao.com/tY80SOu",
+        "category": "购物"
+      },
+      {
+        "name": "京东商城",
+        "url": "https://union-click.jd.com/jdc?d=iEZf6v",
+        "category": "购物"
+      },
+      {
+        "name": "京东家居",
+        "url": "https://u.jd.com/bzU4wBI",
+        "category": "购物"
+      },
+      {
+        "name": "什么值得买",
+        "url": "https://www.smzdm.com/",
+        "category": "购物"
+      },
+      {
+        "name": "淘宝网",
+        "url": "https://www.taobao.com/",
+        "category": "购物"
+      },
+      {
+        "name": "1688",
+        "url": "https://www.1688.com/",
+        "category": "购物"
+      }
+    ]
+  },
+  {
+    "name": "新游",
+    "url": "http://www.hao123.com/game",
+    "items": [
+      {
+        "name": "梦回江湖",
+        "url": "https://wan.baidu.com/cover?gameId=83616427&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "传奇岁月",
+        "url": "https://wan.baidu.com/cover?gameId=115091807&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "雷霆之怒",
+        "url": "https://wan.baidu.com/cover?gameId=39337613&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "凡人神将传",
+        "url": "https://wan.baidu.com/cover?gameId=27585373&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "刺沙",
+        "url": "https://wan.baidu.com/cover?gameId=90887311&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "青云诀",
+        "url": "https://wan.baidu.com/cover?gameId=54190045&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "四圣封神",
+        "url": "https://wan.baidu.com/cover?gameId=57512343&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "散人打金服",
+        "url": "https://wan.baidu.com/cover?gameId=35696569&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "暗夜格斗",
+        "url": "https://wan.baidu.com/cover?gameId=98151411&idfrom=4084",
+        "category": "新游"
+      },
+      {
+        "name": "沙城高爆版",
+        "url": "https://wan.baidu.com/cover?gameId=24063258&idfrom=4084",
+        "category": "新游"
+      }
+    ]
+  },
+  {
+    "name": "体育",
+    "url": "http://www.hao123.com/sports/wangzhi",
+    "items": [
+      {
+        "name": "新浪体育",
+        "url": "http://sports.sina.com.cn/",
+        "category": "体育"
+      },
+      {
+        "name": "虎扑体育",
+        "url": "https://www.hupu.com/",
+        "category": "体育"
+      },
+      {
+        "name": "搜狐体育",
+        "url": "http://sports.sohu.com/",
+        "category": "体育"
+      },
+      {
+        "name": "腾讯体育",
+        "url": "http://sports.qq.com/",
+        "category": "体育"
+      },
+      {
+        "name": "CCTV5",
+        "url": "http://sports.cntv.cn/",
+        "category": "体育"
+      },
+      {
+        "name": "网易体育",
+        "url": "http://sports.163.com/",
+        "category": "体育"
+      },
+      {
+        "name": "PP体育",
+        "url": "http://www.ppsport.com/",
+        "category": "体育"
+      },
+      {
+        "name": "凤凰体育",
+        "url": "http://sports.ifeng.com/",
+        "category": "体育"
+      },
+      {
+        "name": "爱奇艺体育",
+        "url": "http://sports.iqiyi.com/",
+        "category": "体育"
+      },
+      {
+        "name": "体育热点",
+        "url": "http://www.hao123.com/sports",
+        "category": "体育"
+      }
+    ]
+  },
+  {
+    "name": "小说",
+    "url": "http://www.hao123.com/book",
+    "items": [
+      {
+        "name": "飞卢小说",
+        "url": "https://b.faloo.com/",
+        "category": "小说"
+      },
+      {
+        "name": "起点中文网",
+        "url": "https://www.qidian.com/",
+        "category": "小说"
+      },
+      {
+        "name": "QQ阅读",
+        "url": "http://book.qq.com/",
+        "category": "小说"
+      },
+      {
+        "name": "潇湘书院",
+        "url": "http://www.xxsy.net/",
+        "category": "小说"
+      },
+      {
+        "name": "晋江文学城",
+        "url": "http://www.jjwxc.net/",
+        "category": "小说"
+      },
+      {
+        "name": "纵横中文网",
+        "url": "http://www.zongheng.com/",
+        "category": "小说"
+      },
+      {
+        "name": "七猫中文网",
+        "url": "https://www.qimao.com/",
+        "category": "小说"
+      },
+      {
+        "name": "小说阅读",
+        "url": "http://www.readnovel.com/",
+        "category": "小说"
+      },
+      {
+        "name": "小说排行",
+        "url": "http://top.baidu.com/buzz?b=7",
+        "category": "小说"
+      },
+      {
+        "name": "番茄小说",
+        "url": "https://fanqienovel.com/",
+        "category": "小说"
+      }
+    ]
+  },
+  {
+    "name": "手机",
+    "url": "https://pindao.hao123.com/hardware",
+    "items": [
+      {
+        "name": "中关村在线",
+        "url": "http://www.zol.com.cn/",
+        "category": "手机"
+      },
+      {
+        "name": "IT之家",
+        "url": "http://www.ithome.com/",
+        "category": "手机"
+      },
+      {
+        "name": "太平洋手机",
+        "url": "http://mobile.pconline.com.cn/",
+        "category": "手机"
+      },
+      {
+        "name": "移动",
+        "url": "http://www.10086.cn/",
+        "category": "手机"
+      },
+      {
+        "name": "华为官网",
+        "url": "https://www.vmall.com/",
+        "category": "手机"
+      },
+      {
+        "name": "小米官网",
+        "url": "http://www.mi.com/",
+        "category": "手机"
+      },
+      {
+        "name": "vivo手机",
+        "url": "http://www.vivo.com.cn/",
+        "category": "手机"
+      },
+      {
+        "name": "华军软件园",
+        "url": "http://www.onlinedown.net/",
+        "category": "手机"
+      },
+      {
+        "name": "苹果手机",
+        "url": "https://www.apple.com/cn/",
+        "category": "手机"
+      },
+      {
+        "name": "百度手机助手",
+        "url": "https://shouji.baidu.com/",
+        "category": "手机"
+      }
+    ]
+  },
+  {
+    "name": "社交",
+    "url": "http://www.hao123.com/love",
+    "items": [
+      {
+        "name": "斗鱼TV",
+        "url": "https://www.douyu.com/",
+        "category": "社交"
+      },
+      {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/explore",
+        "category": "社交"
+      },
+      {
+        "name": "QQ空间",
+        "url": "http://qzone.qq.com/",
+        "category": "社交"
+      },
+      {
+        "name": "CSDN社区",
+        "url": "https://www.csdn.net/",
+        "category": "社交"
+      },
+      {
+        "name": "新浪微博",
+        "url": "https://weibo.com/",
+        "category": "社交"
+      },
+      {
+        "name": "百合网",
+        "url": "http://www.baihe.com/",
+        "category": "社交"
+      },
+      {
+        "name": "珍爱网",
+        "url": "http://www.zhenai.com/",
+        "category": "社交"
+      },
+      {
+        "name": "虎扑社区",
+        "url": "https://bbs.hupu.com/",
+        "category": "社交"
+      },
+      {
+        "name": "百度贴吧",
+        "url": "https://tieba.baidu.com/index.html",
+        "category": "社交"
+      },
+      {
+        "name": "人人网",
+        "url": "http://renren.com/",
+        "category": "社交"
+      }
+    ]
+  },
+  {
+    "name": "汽车",
+    "url": "http://www.hao123.com/auto",
+    "items": [
+      {
+        "name": "汽车之家",
+        "url": "https://www.autohome.com.cn/",
+        "category": "汽车"
+      },
+      {
+        "name": "百度有驾",
+        "url": "https://youjia.baidu.com/?sa=hao123",
+        "category": "汽车"
+      },
+      {
+        "name": "太平洋汽车",
+        "url": "http://www.pcauto.com.cn/",
+        "category": "汽车"
+      },
+      {
+        "name": "易车网",
+        "url": "https://www.yiche.com/",
+        "category": "汽车"
+      },
+      {
+        "name": "汽车大全",
+        "url": "http://www.hao123.com/auto",
+        "category": "汽车"
+      },
+      {
+        "name": "爱卡汽车",
+        "url": "http://www.xcar.com.cn/",
+        "category": "汽车"
+      },
+      {
+        "name": "新浪汽车",
+        "url": "http://auto.sina.com.cn/",
+        "category": "汽车"
+      },
+      {
+        "name": "搜狐汽车",
+        "url": "http://auto.sohu.com/",
+        "category": "汽车"
+      },
+      {
+        "name": "凤凰汽车",
+        "url": "http://auto.ifeng.com/",
+        "category": "汽车"
+      },
+      {
+        "name": "腾讯汽车",
+        "url": "http://auto.qq.com/",
+        "category": "汽车"
+      }
+    ]
+  },
+  {
+    "name": "新闻",
+    "url": "https://news.hao123.com/wangzhi",
+    "items": [
+      {
+        "name": "新浪新闻",
+        "url": "http://news.sina.com.cn/",
+        "category": "新闻"
+      },
+      {
+        "name": "观察者网",
+        "url": "https://www.guancha.cn/",
+        "category": "新闻"
+      },
+      {
+        "name": "环球网",
+        "url": "http://www.huanqiu.com/",
+        "category": "新闻"
+      },
+      {
+        "name": "参考消息",
+        "url": "http://www.cankaoxiaoxi.com/",
+        "category": "新闻"
+      },
+      {
+        "name": "中国新闻网",
+        "url": "https://www.chinanews.com/",
+        "category": "新闻"
+      },
+      {
+        "name": "搜狐新闻",
+        "url": "http://news.sohu.com/",
+        "category": "新闻"
+      },
+      {
+        "name": "凤凰军事",
+        "url": "http://news.ifeng.com/mil/",
+        "category": "新闻"
+      },
+      {
+        "name": "腾讯新闻",
+        "url": "https://news.qq.com/",
+        "category": "新闻"
+      },
+      {
+        "name": "网易新闻",
+        "url": "https://news.163.com/",
+        "category": "新闻"
+      },
+      {
+        "name": "hao123推荐",
+        "url": "https://tuijian.hao123.com/",
+        "category": "新闻"
+      }
+    ]
+  },
+  {
+    "name": "旅游",
+    "url": "http://go.hao123.com/sites",
+    "items": [
+      {
+        "name": "携程网",
+        "url": "https://www.ctrip.com/",
+        "category": "旅游"
+      },
+      {
+        "name": "12306",
+        "url": "https://www.12306.cn/",
+        "category": "旅游"
+      },
+      {
+        "name": "马蜂窝",
+        "url": "http://www.mafengwo.cn/",
+        "category": "旅游"
+      },
+      {
+        "name": "飞猪旅行",
+        "url": "https://www.fliggy.com/",
+        "category": "旅游"
+      },
+      {
+        "name": "途牛",
+        "url": "http://www.tuniu.com/",
+        "category": "旅游"
+      },
+      {
+        "name": "艺龙旅行网",
+        "url": "http://www.elong.com/",
+        "category": "旅游"
+      },
+      {
+        "name": "穷游网",
+        "url": "http://www.qyer.com/",
+        "category": "旅游"
+      },
+      {
+        "name": "同程旅行",
+        "url": "https://www.ly.com/",
+        "category": "旅游"
+      },
+      {
+        "name": "南方航空",
+        "url": "https://www.csair.com/cn/",
+        "category": "旅游"
+      },
+      {
+        "name": "hao123旅游",
+        "url": "https://pindao.hao123.com/go",
+        "category": "旅游"
+      }
+    ]
+  },
+  {
+    "name": "招聘",
+    "url": "http://www.hao123.com/zhaopin/wangzhi",
+    "items": [
+      {
+        "name": "前程无忧",
+        "url": "http://www.51job.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "BOSS直聘",
+        "url": "https://www.zhipin.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "猎聘",
+        "url": "https://www.liepin.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "应届生求职",
+        "url": "http://www.yingjiesheng.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "拉勾",
+        "url": "https://www.lagou.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "中国公共招聘",
+        "url": "http://job.mohrss.gov.cn/",
+        "category": "招聘"
+      },
+      {
+        "name": "中华英才",
+        "url": "http://www.chinahr.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "实习僧",
+        "url": "https://www.shixiseng.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "看准网",
+        "url": "https://www.kanzhun.com/",
+        "category": "招聘"
+      },
+      {
+        "name": "卫生人才网",
+        "url": "https://www.21wecan.com/",
+        "category": "招聘"
+      }
+    ]
+  },
+  {
+    "name": "生活",
+    "url": "https://pindao.hao123.com/food_new",
+    "items": [
+      {
+        "name": "房天下",
+        "url": "https://www1.fang.com/",
+        "category": "生活"
+      },
+      {
+        "name": "安居客",
+        "url": "https://www.anjuke.com/",
+        "category": "生活"
+      },
+      {
+        "name": "链家网",
+        "url": "http://www.lianjia.com/",
+        "category": "生活"
+      },
+      {
+        "name": "赶集网",
+        "url": "http://www.ganji.com/",
+        "category": "生活"
+      },
+      {
+        "name": "爱企查",
+        "url": "http://aiqicha.baidu.com/?fr=hao123",
+        "category": "生活"
+      },
+      {
+        "name": "下厨房",
+        "url": "http://www.xiachufang.com/",
+        "category": "生活"
+      },
+      {
+        "name": "百姓网",
+        "url": "http://www.baixing.com/",
+        "category": "生活"
+      },
+      {
+        "name": "大众点评",
+        "url": "http://www.dianping.com/",
+        "category": "生活"
+      },
+      {
+        "name": "美团网",
+        "url": "https://meituan.com/",
+        "category": "生活"
+      },
+      {
+        "name": "天眼查",
+        "url": "https://www.tianyancha.com/",
+        "category": "生活"
+      }
+    ]
+  },
+  {
+    "name": "音乐",
+    "url": "http://www.hao123.com/music/wangzhi",
+    "items": [
+      {
+        "name": "酷狗音乐",
+        "url": "http://www.kugou.com/",
+        "category": "音乐"
+      },
+      {
+        "name": "网易云音乐",
+        "url": "http://music.163.com/",
+        "category": "音乐"
+      },
+      {
+        "name": "酷我音乐",
+        "url": "http://www.kuwo.cn/",
+        "category": "音乐"
+      },
+      {
+        "name": "QQ音乐",
+        "url": "http://y.qq.com/",
+        "category": "音乐"
+      },
+      {
+        "name": "千千音乐",
+        "url": "https://music.taihe.com/",
+        "category": "音乐"
+      },
+      {
+        "name": "5sing",
+        "url": "http://5sing.kugou.com/index.html",
+        "category": "音乐"
+      },
+      {
+        "name": "清风DJ音乐",
+        "url": "http://www.vvvdj.com/",
+        "category": "音乐"
+      },
+      {
+        "name": "咪咕音乐",
+        "url": "http://music.migu.cn/v3",
+        "category": "音乐"
+      },
+      {
+        "name": "豆瓣音乐",
+        "url": "https://music.douban.com/",
+        "category": "音乐"
+      },
+      {
+        "name": "唱吧",
+        "url": "http://changba.com/now/stars/index.html",
+        "category": "音乐"
+      }
+    ]
+  },
+  {
+    "name": "财经",
+    "url": "http://pindao.hao123.com/caijing",
+    "items": [
+      {
+        "name": "东方财富",
+        "url": "http://www.eastmoney.com/",
+        "category": "财经"
+      },
+      {
+        "name": "新浪财经",
+        "url": "http://finance.sina.com.cn/",
+        "category": "财经"
+      },
+      {
+        "name": "证券之星",
+        "url": "http://www.stockstar.com/",
+        "category": "财经"
+      },
+      {
+        "name": "中金在线",
+        "url": "http://www.cnfol.com/",
+        "category": "财经"
+      },
+      {
+        "name": "同花顺",
+        "url": "https://www.10jqka.com.cn/",
+        "category": "财经"
+      },
+      {
+        "name": "金融界",
+        "url": "http://www.jrj.com.cn/",
+        "category": "财经"
+      },
+      {
+        "name": "第一财经",
+        "url": "https://www.yicai.com/",
+        "category": "财经"
+      },
+      {
+        "name": "和讯网",
+        "url": "http://www.hexun.com/",
+        "category": "财经"
+      },
+      {
+        "name": "网易财经",
+        "url": "https://money.163.com/",
+        "category": "财经"
+      },
+      {
+        "name": "雪球",
+        "url": "http://xueqiu.com/",
+        "category": "财经"
+      }
+    ]
+  },
+  {
+    "name": "彩票",
+    "url": "https://pindao.hao123.com/caipiao",
+    "items": [
+      {
+        "name": "中国体彩",
+        "url": "http://www.lottery.gov.cn/",
+        "category": "彩票"
+      },
+      {
+        "name": "中国福彩网",
+        "url": "http://www.cwl.gov.cn/",
+        "category": "彩票"
+      },
+      {
+        "name": "新浪彩票",
+        "url": "http://lottery.sina.com.cn/",
+        "category": "彩票"
+      },
+      {
+        "name": "竞彩网",
+        "url": "http://www.sporttery.cn/",
+        "category": "彩票"
+      },
+      {
+        "name": "双色球",
+        "url": "https://www.baidu.com/s?word=%E5%8F%8C%E8%89%B2%E7%90%83&tn=50000234_hao_pg&ie=utf-8",
+        "category": "彩票"
+      },
+      {
+        "name": "全国开奖",
+        "url": "https://pindao.hao123.com/caipiao",
+        "category": "彩票"
+      },
+      {
+        "name": "搜狐彩票",
+        "url": "https://sports.sohu.com/s/bet",
+        "category": "彩票"
+      },
+      {
+        "name": "福彩3D",
+        "url": "http://www.cwl.gov.cn/fcpz/yxjs/fc3d/",
+        "category": "彩票"
+      },
+      {
+        "name": "中彩网",
+        "url": "https://www.zhcw.com/",
+        "category": "彩票"
+      },
+      {
+        "name": "大乐透",
+        "url": "https://www.baidu.com/s?word=%E5%A4%A7%E4%B9%90%E9%80%8F&tn=50000240_hao_pg&ie=utf-8&H123Tmp=nunew9",
+        "category": "彩票"
+      }
+    ]
+  },
+  {
+    "name": "银行",
+    "url": "http://www.hao123.com/bank",
+    "items": [
+      {
+        "name": "建设银行",
+        "url": "http://www.ccb.com/",
+        "category": "银行"
+      },
+      {
+        "name": "中国银行",
+        "url": "http://www.boc.cn/",
+        "category": "银行"
+      },
+      {
+        "name": "工商银行",
+        "url": "http://www.icbc.com.cn/",
+        "category": "银行"
+      },
+      {
+        "name": "农业银行",
+        "url": "http://www.abchina.com/",
+        "category": "银行"
+      },
+      {
+        "name": "交通银行",
+        "url": "http://www.bankcomm.com/",
+        "category": "银行"
+      },
+      {
+        "name": "招商银行",
+        "url": "http://www.cmbchina.com/",
+        "category": "银行"
+      },
+      {
+        "name": "兴业银行",
+        "url": "https://www.cib.com.cn/cn/index.html",
+        "category": "银行"
+      },
+      {
+        "name": "浦发银行",
+        "url": "http://www.spdb.com.cn/",
+        "category": "银行"
+      },
+      {
+        "name": "邮政储蓄",
+        "url": "https://www.psbc.com/cn/",
+        "category": "银行"
+      },
+      {
+        "name": "人民银行",
+        "url": "http://www.pbc.gov.cn/",
+        "category": "银行"
+      }
+    ]
+  },
+  {
+    "name": "邮箱",
+    "url": "http://www.hao123.com/mail",
+    "items": [
+      {
+        "name": "163邮箱",
+        "url": "http://mail.163.com/",
+        "category": "邮箱"
+      },
+      {
+        "name": "126邮箱",
+        "url": "http://mail.126.com/",
+        "category": "邮箱"
+      },
+      {
+        "name": "QQ邮箱",
+        "url": "http://mail.qq.com/",
+        "category": "邮箱"
+      },
+      {
+        "name": "新浪邮箱",
+        "url": "http://mail.sina.com.cn/",
+        "category": "邮箱"
+      },
+      {
+        "name": "阿里邮箱",
+        "url": "http://mail.aliyun.com/",
+        "category": "邮箱"
+      },
+      {
+        "name": "139邮箱",
+        "url": "http://mail.10086.cn/",
+        "category": "邮箱"
+      },
+      {
+        "name": "Outlook邮箱",
+        "url": "https://outlook.live.com/",
+        "category": "邮箱"
+      },
+      {
+        "name": "搜狐邮箱",
+        "url": "https://mail.sohu.com/",
+        "category": "邮箱"
+      },
+      {
+        "name": "百度网盘",
+        "url": "https://pan.baidu.com/",
+        "category": "邮箱"
+      },
+      {
+        "name": "foxmail邮箱",
+        "url": "https://www.foxmail.com/",
+        "category": "邮箱"
+      }
+    ]
+  }
+]

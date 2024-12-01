@@ -1,0 +1,1 @@
+GET http://localhost:8080/hotTab?page_id=1&page_size=3
